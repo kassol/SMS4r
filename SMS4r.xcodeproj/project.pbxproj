@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD93FDE11AA839F600B46B69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93FDE01AA839F600B46B69 /* main.m */; };
+		BD93FDE91AA83A3F00B46B69 /* SMS4.m in Sources */ = {isa = PBXBuildFile; fileRef = BD93FDE81AA83A3F00B46B69 /* SMS4.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BD93FDDD1AA839F600B46B69 /* SMS4r */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SMS4r; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD93FDE01AA839F600B46B69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD93FDE71AA83A3F00B46B69 /* SMS4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMS4.h; sourceTree = "<group>"; };
+		BD93FDE81AA83A3F00B46B69 /* SMS4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMS4.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,8 @@
 		BD93FDDF1AA839F600B46B69 /* SMS4r */ = {
 			isa = PBXGroup;
 			children = (
+				BD93FDE71AA83A3F00B46B69 /* SMS4.h */,
+				BD93FDE81AA83A3F00B46B69 /* SMS4.m */,
 				BD93FDE01AA839F600B46B69 /* main.m */,
 			);
 			path = SMS4r;
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD93FDE91AA83A3F00B46B69 /* SMS4.m in Sources */,
 				BD93FDE11AA839F600B46B69 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -232,6 +238,7 @@
 				BD93FDE61AA839F600B46B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
